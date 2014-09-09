@@ -76,7 +76,7 @@ div.tooltip {
   //Reading map file and data
 
   queue()
-  .defer(d3.json, "/map.topo.json")
+  .defer(d3.json, "/geo/map.topo.json")
   .await(ready);
 
   //Start of Choropleth drawing
